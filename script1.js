@@ -349,15 +349,15 @@ function itemwithFruits(){
 console.log("Function that shows all the Food items with category Fruits:")
 itemwithFruits()
 
-function itemwithProtiens(){
+function itemwithProteins(){
   foodOriginalData.filter(function chart(item){
-    if(item.category === "Protien")
+    if(item.category === "Protein")
     {
      console.log(item)
     }})
 }
-console.log("Function that shows all the Food items with category Protien:")
-itemwithProtiens()
+console.log("Function that shows all the Food items with category Protein:")
+itemwithProteins()
 
 function itemwithNuts(){
   foodOriginalData.filter(function chart(item){
